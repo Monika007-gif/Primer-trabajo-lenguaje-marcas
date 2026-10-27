@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de incidencia</title>
+</head>
+<body>
+<h1>Formulario de Incidencias</h1>
+<form action="incidencia.php" methot="get">
+    <p>Usuario que remite la incidencia:</p>
+    <input type=" test" name=" usuario"
+    placeholder="introduzca Nombre y Apellidos">
+<p>es alumno o profesor?</p>
+<input type="radio" name="tipo usuario" value="alumno">alumno
+    <input type="radio" name="tipo usuario" value="Profesor">Profesor
+     <p>lugar de la incidencia</p>
+     <input type="radio" name="lugar" value="departamento">
+     Todo el departamento
+             <br>
+             <input type="radio" name="lugar" value="aula">
+                todo el aula
+             <br>
+             <input type="radio" name="lugar" value="equipo" checked>
+            solo en un equipo
+        <p>nombre del departamento, número del aula o nombre del equipo:</p>
+    <input type="test" name="nombre_lugar">
+    <br><br>
+    <h2>información sobre la incidencia</h2>
+    <label>nivel de urgencia</label>
+    <br>
+    <input type="radio" id="alto" name="urgencia" value="alto">
+    <label for="alto">alto</label>
+    <input type="radio" id="medio" name="urgencia" value="medio">
+    <label for="medio">medio</label>
+    <input type="radio" id="bajo" name="urgencia" value="bajo"
+    checked>
+    <label for="bajo">bajo</label>
+    <br><br>
+    <label for="descripcion">describe la incidencia con detalle:</label>
+    <br>
+    <textarea id="descripcion" name="descripcion" rows="5" cols="40" placeholder="Explica lo que ha ocurrido y qué problema tiene"></textarea>
+    
+    <br><br>
+    <label>Quieres recibir un mensaje al correo cuando se resuelva la incidencia?</label>
+       <br> <br>
+    <input type="radio" id="correo_si" name="correo" value="si">
+    <label for="correo_si">Sí</label>
+    <input type="radio" id="correo_no" name="correo" value="no">
+    <label for="correo_no">No</label>
+    <br><br>
+    <input type="submit" value="Entrar">
+    <input type="reset" value="Limpiar">
+</form>
+</body>
+</html>    
