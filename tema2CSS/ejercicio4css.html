@@ -17,16 +17,20 @@
     }
 
     /* Todos los párrafos contenidos en #primero */
+    #primero
     {
       color: red;
     }
 
     /* Todos los p cuyo precedente sea otro p */
+    p+p
     {
       text-align: right; 
     }
 
+    
     /* Todos los enlaces de la pagina */
+    a
     {
       color: green;
     }
@@ -37,19 +41,22 @@
     }
 
     /* Los elementos <em> contenidos en #primero */
-    {
+    #primero em
+        {
       color: #0000BB;
       background-color: #FFFFCC;
     }
 
     /* Todos los elementos <em> con la clase "especial" en toda la pagina */
-    {
+    
+        {
       color: #FFFF00;
       background: #000000;
     }
 
     /* Todos los elementos <span> contenidos en la clase "normal" */
-    {
+    span
+        {
       font-weight: bold;
     }
 
