@@ -1,0 +1,38 @@
+/* EJERCICIO 6 */
+
+/* Apartado 1: RGB */
+header {
+    background-color: rgb(0, 176, 240);
+}
+
+header h1 {
+    color: white;
+}
+
+header h2 {
+    color: pink;
+}
+
+/* Apartado 2: HEX y HSL */
+header {
+    background-color: #00B0F0;
+}
+
+header a {
+    color: hsl(120, 100%, 25%);
+}
+
+/* Apartado 3: Menú */
+nav {
+    background-color: orange;
+}
+
+/* Apartado 4: Transparencia */
+aside {
+    background-color: rgba(0, 176, 240, 0.5);
+}
+
+/* Apartado 5: Fondo principal */
+main {
+    background-color: LightGoldenrodYellow;
+}
